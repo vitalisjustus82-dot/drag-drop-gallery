@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drag and Drop Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Drag and Drop Image Gallery</h1>
+
+        <p class="instruction">
+            Drag any image into the large box to display it.
+        </p>
+
+        <div class="gallery">
+
+            <!-- Small Images -->
+            <div class="small-images">
+
+                <img
+                    src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                    alt="Image 1"
+                    class="gallery-image"
+                    draggable="true"
+                >
+
+                <img
+                    src="images/josh-hild-x5c9iNbI5ls-unsplash.jpg"
+                    alt="Image 2"
+                    class="gallery-image"
+                    draggable="true"
+                >
+
+                <img
+                    src="images/camera121.jpg"
+                    alt="Image 3"
+                    class="gallery-image"
+                    draggable="true"
+                >
+
+                <img
+                    src="images/pngwing.com (3).png"
+                    alt="Image 4"
+                    class="gallery-image"
+                    draggable="true"
+                >
+
+                <img
+                    src="images/tim-toomey-STqHLqMne3k-unsplash.jpg"
+                    alt="Image 5"
+                    class="gallery-image"
+                    draggable="true"
+                >
+
+            </div>
+
+            <!-- Large Image Box -->
+            <div class="large-image-box">
+
+                <p id="message">
+                    Drag an image here
+                </p>
+
+                <img
+                    id="displayImage"
+                    src=""
+                    alt="Selected image"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
